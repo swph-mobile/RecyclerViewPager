@@ -6,10 +6,14 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
+//import android.support.annotation.NonNull;
+//import android.support.annotation.Nullable;
+//import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 
 public abstract class GenericRecyclerViewAdapter<T, VH extends RecyclerView.ViewHolder> extends
     RecyclerView.Adapter<VH> implements OnItemChangedListener {
@@ -52,7 +56,8 @@ public abstract class GenericRecyclerViewAdapter<T, VH extends RecyclerView.View
     return mDataSource.size();
   }
 
-  public @Nullable T getItem(int position) {
+  public @Nullable
+  T getItem(int position) {
     return (position < 0 || position >= mDataSource.size()) ? null : mDataSource.get(position);
   }
 
