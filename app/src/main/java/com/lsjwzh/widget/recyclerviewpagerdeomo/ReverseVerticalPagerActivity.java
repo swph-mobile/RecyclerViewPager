@@ -1,7 +1,5 @@
 package com.lsjwzh.widget.recyclerviewpagerdeomo;
 
-//import android.support.v7.widget.LinearLayoutManager;
-//import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import androidx.recyclerview.widget.LinearLayoutManager;

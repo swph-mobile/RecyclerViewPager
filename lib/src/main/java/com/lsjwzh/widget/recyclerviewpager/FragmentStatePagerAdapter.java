@@ -6,11 +6,6 @@ import java.util.Set;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
-//import android.support.annotation.NonNull;
-//import android.support.v4.app.Fragment;
-//import android.support.v4.app.FragmentManager;
-//import android.support.v4.app.FragmentTransaction;
-//import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.LayoutInflater;

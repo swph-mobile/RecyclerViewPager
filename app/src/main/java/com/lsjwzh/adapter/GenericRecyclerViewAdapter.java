@@ -6,9 +6,6 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-//import android.support.annotation.NonNull;
-//import android.support.annotation.Nullable;
-//import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import androidx.annotation.NonNull;

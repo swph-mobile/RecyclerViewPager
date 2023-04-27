@@ -3,12 +3,6 @@ package com.lsjwzh.widget.recyclerviewpagerdeomo;
 import java.util.LinkedHashMap;
 
 import android.os.Bundle;
-//import android.support.design.widget.TabLayout;
-//import android.support.v4.app.Fragment;
-//import android.support.v4.app.FragmentManager;
-//import android.support.v7.app.AppCompatActivity;
-//import android.support.v7.widget.LinearLayoutManager;
-//import android.support.v7.widget.Toolbar;
 import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
