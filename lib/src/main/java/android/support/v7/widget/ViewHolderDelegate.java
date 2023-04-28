@@ -1,5 +1,7 @@
 package android.support.v7.widget;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 public abstract class ViewHolderDelegate {
 
     private ViewHolderDelegate() {
@@ -7,6 +9,6 @@ public abstract class ViewHolderDelegate {
     }
 
     public static void setPosition(RecyclerView.ViewHolder viewHolder, int position) {
-        viewHolder.mPosition = position;
+        viewHolder.getLayoutPosition();
     }
 }
