@@ -19,6 +19,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:design:26.0.2'
-    compile project(':lib')
+    api 'com.android.support:design:26.0.2'
+    api project(':lib')
 }

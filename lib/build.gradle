@@ -24,8 +24,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:recyclerview-v7:26.0.2'
-    compile 'com.android.support:appcompat-v7:26.0.2'
-    compile 'com.android.support:support-v4:26.0.2'
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api 'com.android.support:recyclerview-v7:26.0.2'
+    api 'com.android.support:appcompat-v7:26.0.2'
+    api 'com.android.support:support-v4:26.0.2'
 }
