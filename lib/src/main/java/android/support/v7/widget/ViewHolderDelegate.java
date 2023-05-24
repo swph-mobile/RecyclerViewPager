@@ -1,4 +1,4 @@
-package android.support.v7.widget;
+package androidx.appcompat.widget;
 
 import androidx.recyclerview.widget.RecyclerView;
 
