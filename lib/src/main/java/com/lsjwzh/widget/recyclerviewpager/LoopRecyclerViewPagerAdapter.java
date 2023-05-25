@@ -1,6 +1,6 @@
 package com.lsjwzh.widget.recyclerviewpager;
 
-import android.support.v7.widget.ViewHolderDelegate;
+import androidx.appcompat.widget.ViewHolderDelegate;
 
 import androidx.recyclerview.widget.RecyclerView;
 
