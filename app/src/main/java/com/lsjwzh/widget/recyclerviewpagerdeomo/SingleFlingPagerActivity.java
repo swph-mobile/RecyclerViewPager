@@ -8,6 +8,7 @@ import android.view.View;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.lsjwzh.R;
 import com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager;
 
 public class SingleFlingPagerActivity extends Activity {

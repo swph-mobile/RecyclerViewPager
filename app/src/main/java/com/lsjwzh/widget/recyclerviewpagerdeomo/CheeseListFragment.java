@@ -38,6 +38,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.lsjwzh.R;
 
 public class CheeseListFragment extends Fragment {
     private int mIndex;

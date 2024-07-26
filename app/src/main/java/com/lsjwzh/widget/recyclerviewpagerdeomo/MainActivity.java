@@ -28,6 +28,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.lsjwzh.R;
 import com.lsjwzh.adapter.GenericRecyclerViewAdapter;
 import com.lsjwzh.adapter.OnRecyclerViewItemClickListener;
 

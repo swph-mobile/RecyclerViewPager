@@ -12,6 +12,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.google.android.material.tabs.TabLayout;
+import com.lsjwzh.R;
 import com.lsjwzh.widget.recyclerviewpager.FragmentStatePagerAdapter;
 import com.lsjwzh.widget.recyclerviewpager.LoopRecyclerViewPager;
 import com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager;

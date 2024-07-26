@@ -26,10 +26,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import static com.lsjwzh.widget.recyclerviewpagerdeomo.R.id;
-import static com.lsjwzh.widget.recyclerviewpagerdeomo.R.layout;
-
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.lsjwzh.R;
 
 public class LayoutAdapter extends RecyclerView.Adapter<LayoutAdapter.SimpleViewHolder> {
     private static final int DEFAULT_ITEM_COUNT = 100;
@@ -44,7 +43,7 @@ public class LayoutAdapter extends RecyclerView.Adapter<LayoutAdapter.SimpleView
 
         public SimpleViewHolder(View view) {
             super(view);
-            title = (TextView) view.findViewById(id.title);
+            title = (TextView) view.findViewById(R.id.title);
         }
     }
 
@@ -75,7 +74,7 @@ public class LayoutAdapter extends RecyclerView.Adapter<LayoutAdapter.SimpleView
 
     @Override
     public SimpleViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        final View view = LayoutInflater.from(mContext).inflate(layout.item, parent, false);
+        final View view = LayoutInflater.from(mContext).inflate(R.layout.item, parent, false);
         return new SimpleViewHolder(view);
     }
 
