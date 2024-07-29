@@ -9,6 +9,7 @@ import android.widget.EditText;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.lsjwzh.R;
 import com.lsjwzh.widget.recyclerviewpager.LoopRecyclerViewPager;
 
 public class LoopPagerActivity extends Activity {

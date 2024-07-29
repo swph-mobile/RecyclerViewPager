@@ -16,6 +16,8 @@
 
 package com.lsjwzh.widget.recyclerviewpagerdeomo;
 
+import com.lsjwzh.R;
+
 import java.util.Random;
 
 public class Cheeses {
