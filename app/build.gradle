@@ -8,7 +8,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 34
-    buildToolsVersion '33.0.2'
+    buildToolsVersion '35.0.0'
 
     namespace 'com.lsjwzh'
 
@@ -40,6 +40,6 @@ dependencies {
     api 'com.android.support:support-v4:28.0.0'
     api 'com.android.support:support-v13:28.0.0'
 
-    api 'com.github.bumptech.glide:glide:4.11.0'
+    api 'com.github.bumptech.glide:glide:4.16.0'
     api 'de.hdodenhof:circleimageview:1.3.0'
 }
